@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: auto;
+
+    background: #000;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    color: hotpink;
+    transition: 0.4s;
+    cursor: pointer;
+}
+h1:hover{
+    font-size: 100px;
+    letter-spacing: 5px;
+}
